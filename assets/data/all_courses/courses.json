@@ -1,0 +1,145 @@
+{
+  "coursesList": [
+    {
+      "courseId": "ip78hd",
+      "courseName": "Introduction to Web Development",
+      "courseDescription": "This course provides a comprehensive introduction to web development, covering HTML, CSS, and JavaScript.",
+      "courseSections": [
+        {
+          "sectionId": "mod1",
+          "sectionType": "html",
+          "sectionContent": "<p>Learn the fundamentals of HTML and how to structure web pages.</p>",
+          "sectionTitle": "HTML and CSS intro"
+        },
+        {
+          "sectionId": "mod2",
+          "sectionType": "flip_cards",
+          "itemList": [
+            {
+              "front": "This is front",
+              "back": "This is back"
+            },
+            {
+              "front": "Front",
+              "back": "back"
+            }
+          ],
+          "title": "Module 2: CSS Essentials",
+          "sectionContent": "Explore the basics of CSS for styling web pages."
+        },
+        {
+          "sectionId": "mod3",
+          "title": "Module 3: Introduction to JavaScript",
+          "sectionType": "mcq",
+          "itemList": [
+            {
+              "question": "This is a question",
+              "options": [
+                {
+                  "optionLabel": "Wrong Ans 1",
+                  "isCorrect": false
+                },
+                {
+                  "optionLabel": "Wrong Ans 2",
+                  "isCorrect": false
+                },
+                {
+                  "optionLabel": "Right Ans 1",
+                  "isCorrect": true
+                },
+                {
+                  "optionLabel": "Right Ans 2",
+                  "isCorrect": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "numberOfCourseSections": 3,
+      "courseAssesments": []
+    },
+    {
+      "courseId": "tt89mn",
+      "courseName": "Fundamentals of Python Programming",
+      "courseDescription": "An introductory course to Python programming, covering basic concepts and practical applications.",
+      "courseSections": [
+        {
+          "sectionId": "nm2scv",
+          "sectionType": "module",
+          "sectionContent": "Introduction to Python."
+        },
+        {
+          "sectionId": "sz12sd",
+          "title": "What is Python",
+          "sectionContent": "Understanding variables, data types, and basic operations in Python."
+        },
+        {
+          "sectionId": "vb15hy",
+          "title": "Introduction to Pandas",
+          "sectionContent": "Learn about control structures and writing functions in Python."
+        },
+        {
+          "sectionId": "cf41jj",
+          "title": "Introduction to Django",
+          "sectionContent": "Learn about control structures and writing functions in Python."
+        }
+      ],
+      "numberOfCourseSections": 3,
+      "courseAssesments": []
+    },
+    {
+      "courseId": "po76nm",
+      "courseName": "Introduction to Data Science",
+      "courseDescription": "This course introduces the core concepts of data science, including data analysis, visualization, and machine learning.",
+      "courseSections": [
+        {
+          "sectionId": "ds1",
+          "sectionType": "module",
+          "sectionContent": "The basics of data analysis and manipulation."
+        },
+        {
+          "sectionId": "ds2",
+          "title": "Data Visualization Techniques",
+          "sectionContent": "Explore various tools and techniques for data visualization."
+        },
+        {
+          "sectionId": "ds3",
+          "title": "Introduction to Machine Learning",
+          "sectionContent": "An overview of machine learning concepts and applications."
+        },
+        {
+          "sectionId": "ds4",
+          "title": "Introduction to Computer Vision",
+          "sectionContent": "An overview of Computer Vision and its applications in self driving vehicles."
+        }
+      ],
+      "numberOfCourseSections": 3,
+      "courseAssesments": []
+    },
+    {
+      "courseId": "hd78hb",
+      "courseName": "Introduction to Document AI",
+      "courseDescription": "This course introduces the core concepts of Document AI",
+      "courseSections": [
+        {
+          "sectionId": "ds1",
+          "sectionType": "module",
+          "sectionContent": "The basics of data analysis and manipulation."
+        },
+        {
+          "sectionId": "ds2",
+          "title": "Data Visualization Techniques",
+          "sectionContent": "Explore various tools and techniques for data visualization."
+        },
+        {
+          "sectionId": "ds3",
+          "title": "Introduction to Machine Learning",
+          "sectionContent": "An overview of machine learning concepts and applications."
+        }
+      ],
+      "numberOfCourseSections": 3,
+      "courseAssesments": []
+    }
+  ]
+}

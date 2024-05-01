@@ -1,0 +1,311 @@
+{
+    "buttonHome": "Home",
+    "@buttonHome": {
+        "type": "text",
+        "description": "Tooltip for Home button"
+    },
+    "buttonAdminConsole": "Admin Console",
+    "@buttonAdminConsole": {
+        "type": "text",
+        "description": "Tooltip for Admin Console button"
+    },
+     "buttonAdminPanel": "Admin Panel",
+        "@buttonAdminPanel": {
+            "type": "text",
+            "description": "Tooltip for Admin Panel button"
+    },
+    "buttonCourseList": "My Courses",
+    "@buttonCourseList": {
+        "type": "text",
+        "description": "Tooltip for Course List button"
+    },
+    "buttonTracking": "Tracking",
+    "@buttonTracking": {
+        "type": "text",
+        "description": "Tooltip for Tracking button"
+    },
+    "buttonNotificationPage": "Notifications",
+    "@buttonNotificationPage": {
+        "type": "text",
+        "description": "Tooltip for Notification Page button"
+    },
+    "buttonSettings": "Settings",
+    "@buttonSettings": {
+        "type": "text",
+        "description": "Tooltip for Settings button"
+    },
+    "buttonLogout": "Logout",
+    "@buttonLogout": {
+        "type": "text",
+        "description": "Tooltip for logout button"
+    },
+    "buttonLanguage": "Language",
+    "@buttonLanguage": {
+        "type": "text",
+        "description": "Tooltip for language button"
+    },
+    "buttonMenu": "Menu",
+        "@buttonLanguage": {
+            "type": "text",
+            "description": "Menu button on NavigationRail"
+        },
+    "localeEnglish": "English",
+    "@localeEnglish": {
+        "type": "text",
+        "description": "Dropdown item for locale English"
+    },
+    "localeJapanese": "Japanese",
+    "@localeJapanese": {
+        "type": "text",
+        "description": "Dropdown item for locale Japanese"
+    },
+    "buttonCheckAnswer": "Check answer",
+    "@buttonCheckAnswer": {
+        "type": "text",
+        "description": "Button for checking course question answer"
+    },
+    "buttonSelectAnswer": "No answer selected",
+    "@buttonSelectAnswer": {
+        "type": "text",
+        "description": "Disabled button for checking course question answer"
+    },
+    "buttonSectionContentIncomplete": "Complete all section content to proceed",
+    "@buttonSectionContentIncomplete": {
+        "type": "text",
+        "description": "Disabled button for proceeding to next section/completing course"
+    },
+    "buttonFinishCourse": "Finish course and return to course list",
+    "@buttonFinishCourse": {
+        "type": "text",
+        "description": "Button for completing course"
+    },
+    "buttonNextSection": "Proceed to next section: {nextSection}",
+    "@buttonNextSection": {
+        "type": "text",
+        "description": "Button to proceed to next course section",
+        "placeholders": {
+            "nextSection": {
+                "type": "String",
+                "example": "Next Section"
+            }
+        }
+    },
+    "buttonPreviousSection": "Back to previous section: {previousSection}",
+    "@buttonPreviousSection": {
+        "type": "text",
+        "description": "Button to return to previous course section",
+        "placeholders": {
+            "previousSection": {
+                "type": "String",
+                "example": "Previous Section"
+            }
+        }
+    },
+    "dialogLeavePageTitle": "Are you sure you want to leave this page?",
+    "@dialogLeavePageTitle": {
+        "type": "text",
+        "description": "Title of pop-up navigation confirmation dialog displayed when attempting to leave certain pages"
+    },
+    "dialogLeavePageContentCourse": "Course section progress will be saved, so you can resume where you left off later.",
+    "@dialogLeavePageContentCourse": {
+        "type": "text",
+        "description": "Content of pop-up navigation confirmation dialog displayed when attempting to leave course page"
+    },
+    "dialogLeavePageContentExam": "Exam answers will NOT be submitted or saved, so you will need to start over later.",
+    "@dialogLeavePageContentExam": {
+        "type": "text",
+        "description": "Content of pop-up navigation confirmation dialog displayed when attempting to leave exam page"
+    },
+    "dialogLeavePage": "Leave page",
+    "@dialogLeavePage": {
+        "type": "text",
+        "description": "Choice to leave page from pop-up navigation confirmation dialog"
+    },
+    "dialogStayHere": "Stay here",
+    "@dialogStayHere": {
+        "type": "text",
+        "description": "Choice to stay on page from pop-up navigation confirmation dialog"
+    },
+    "dialogAcknowledge": "OK",
+    "@dialogAcknowledge": {
+        "type": "text",
+        "description": "Button used in courses to acknowledge correct answer explanation and dismiss pop-up dialog"
+    },
+    "dialogAnswerCorrectTitle": "Correct!",
+    "@dialogAnswerCorrectTitle": {
+        "type": "text",
+        "description": "Title of pop-up courses answer explanation dialog when answer correct"
+    },
+    "dialogAnswerIncorrectTitle": "Incorrect...",
+    "@dialogAnswerIncorrectTitle": {
+        "type": "text",
+        "description": "Title of pop-up courses answer explanation dialog when answer incorrect"
+    },
+    "dialogAnswerIncorrectContentSelected": "Selected answer \"{incorrectAnswerText}\" is incorrect.\nExplanation: {incorrectAnswerExplanation}\n",
+    "@dialogAnswerIncorrectContentSelected": {
+        "type": "text",
+        "description": "Content of pop-up courses answer explanation dialog when answer incorrect explaining selected incorrect answers",
+        "placeholders": {
+            "incorrectAnswerText": {
+                "type": "String",
+                "example": "Incorrect answer text"
+            },
+            "incorrectAnswerExplanation": {
+                "type": "String",
+                "example": "Incorrect answer explanation"
+            }
+        }
+    },
+    "dialogAnswerIncorrectContentCorrect": "Answer \"{correctAnswerText}\" is correct.\nExplanation: {correctAnswerExplanation}\n",
+    "@dialogAnswerIncorrectContentCorrect": {
+        "type": "text",
+        "description": "Content of pop-up courses answer explanation dialog when answer incorrect explaining correct answers",
+        "placeholders": {
+            "correctAnswerText": {
+                "type": "String",
+                "example": "Correct answer text"
+            },
+            "correctAnswerExplanation": {
+                "type": "String",
+                "example": "Correct answer explanation"
+            }
+        }
+    },
+    "homeWelcomeBack": "Welcome back,",
+    "@homeWelcomeBack": {
+        "type": "text",
+        "description": "Welcome back message on home screen"
+    },
+    "remainingCourses": "Remaining Courses:",
+    "@remainingCourses": {
+        "type": "text",
+        "description": "Remaining Courses message on home screen"
+    },
+    "noRemainingCourses": "There is no remaining course",
+    "@noRemainingCourses": {
+        "type": "text",
+        "description": "There is no remaining course message on home screen"
+    },
+    "selectAll": "Select All",
+    "@selectAll": {
+        "type": "text",
+        "description": "Select All on Notification page"
+    },
+    "deleteSelected": "Delete Selected",
+    "@deleteSelected": {
+        "type": "text",
+        "description": "Delete Selected on Notification page"
+    },
+    "markUnreadSelected": "Mark Unread Selected",
+    "@markUnreadSelected": {
+        "type": "text",
+        "description": "Mark Unread Selected on Notification page"
+    },
+    "courses": "Courses",
+    "@courses": {
+        "type": "text",
+        "description": "Courses on course list page"
+    },
+    "buttonResumeCourse": "Resume Course",
+    "@buttonResumeCourse": {
+        "type": "text",
+        "description": "Resume Course button on course list page"
+    },
+    "buttonStartCourse": "Start Course",
+    "@buttonStartCourse": {
+        "type": "text",
+        "description": "Start Course button on course list page"
+    },
+    "buttonStartExam": "Start Exam",
+    "@buttonStartExam": {
+        "type": "text",
+        "description": "Start Exam button on course list page"
+    },
+    "buttonStartExamDisabled": "Complete all course sections to take exam",
+    "@buttonStartExamDisabled": {
+        "type": "text",
+        "description": "Start Exam button disabled on course list page"
+    },
+    "sectionCompletion": "Sections ({completedSections}/{totalSections} Completed)",
+    "@sectionCompletion": {
+        "type": "text",
+        "description": "Section completion ExpansionListTile on course list page",
+        "placeholders": {
+            "completedSections": {
+                "type": "int",
+                "example": "2"
+            },
+            "totalSections": {
+                "type": "int",
+                "example": "5"
+            }
+        }
+    },
+    "examCompletion": "Exams ({completedExams}/{totalExams} Completed)",
+    "@examCompletion": {
+        "type": "text",
+        "description": "Exam completion ExpansionListTile on course list page",
+        "placeholders": {
+            "completedExams": {
+                "type": "int",
+                "example": "0"
+            },
+            "totalExams": {
+                "type": "int",
+                "example": "2"
+            }
+        }
+    },
+    "examEstimatedCompletionTime": "Estimated completion time: {estimatedCompletionTime}",
+    "@examEstimatedCompletionTime": {
+        "type": "text",
+        "description": "Exam estimated completion time on course list page",
+        "placeholders": {
+            "estimatedCompletionTime": {
+                "type": "String",
+                "example": "00:30:00"
+            }
+        }
+    },
+    "examPassMark": "Pass mark: {passMark}",
+    "@examPassMark": {
+        "type": "text",
+        "description": "Exam pass mark on course list page",
+        "placeholders": {
+            "passMark": {
+                "type": "int",
+                "example": "30"
+            }
+        }
+    },
+    "themes": "Themes:",
+    "@themes": {
+        "type": "text",
+        "description": "Themes on Settings page"
+    },
+    "lightTheme": "Light Theme",
+    "@lightTheme": {
+        "type": "text",
+        "description": "Light theme on Settings page"
+    },
+    "darkTheme": "Dark Theme",
+    "@darkTheme": {
+        "type": "text",
+        "description": "Dark theme on Settings page"
+    },
+    "languageSetting": "Language:",
+    "@languageSetting": {
+        "type": "text",
+        "description": "Language setting on Settings page"
+    },
+    "searchHint": "Search",
+        "@searchHint": {
+            "type": "text",
+            "description": "Search Hint text on search box on AppBar"
+        }
+
+
+
+
+
+}
